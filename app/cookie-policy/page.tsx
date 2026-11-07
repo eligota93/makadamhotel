@@ -1,0 +1,8 @@
+import LegalPage from "../legal-page";
+export default function CookiePolicy(){return <LegalPage eyebrow="LEGAL · MAKADAM HOTEL" title="Cookie Policy" intro="This policy explains how this website uses cookies and similar browser storage." sections={[
+ {title:"What cookies are",body:"Cookies and similar storage technologies are small pieces of information saved by your browser. They can remember preferences, keep website features working, and help understand how a website is used."},
+ {title:"Essential storage",body:"The website uses essential browser storage to remember your cookie choice, avoid repeatedly showing dismissed notices during the same session, and support necessary website behaviour. Essential storage is used without optional consent because the requested features cannot work properly without it."},
+ {title:"Optional cookies",body:"Optional analytics or performance cookies may be used only after you select Accept Cookies. They may help us understand page visits and improve the website. The site does not require optional cookies for browsing rooms, viewing galleries, or following booking links."},
+ {title:"Third-party services",body:"Links and embedded services such as the reservation platform, Google Maps, Google Reviews, WhatsApp, and social networks may set their own cookies after you open or interact with them. Their cookies are controlled by those providers and covered by their policies."},
+ {title:"Managing your choice",body:"Use the cookie banner to accept optional cookies or continue with essential storage only. You can also clear or block cookies and local storage through your browser settings; doing so may reset your saved preference."}
+]}/>}
